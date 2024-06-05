@@ -1,0 +1,3 @@
+I am working on a medical imaging reconstruction problem. Specifically, I am interested in understanding the inner workings of the filtered backprojection reconstruction problem. I would like you to help me understand better by writing Python code for filtered backprojection (sometimes also called the inverse Radon transform). According to the Radon transform, the correct filter to apply will be a ramp filter, also sometimes called a Ram-Lak filter.
+
+Can you please write annotated code in Python, using only the NumPy library? I will test the function you write by calling "recon(I_p, p_angles)" where I_p is the sinogram data (or projected data) stored in a 2D matrix of size N (length of project) by length(p_angles) and p_angles is a 1D array of projection angles.
